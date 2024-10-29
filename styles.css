@@ -1,0 +1,82 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+}
+
+/* Header and Navigation */
+header {
+    background: #4A90E2;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* About Section */
+.about {
+    padding: 2rem;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin: 2rem;
+    border-radius: 10px;
+}
+
+.about .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #4A90E2;
+}
+
+.about p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+    margin-top: 2rem;
+}
